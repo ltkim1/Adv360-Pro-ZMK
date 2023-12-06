@@ -51,10 +51,10 @@
         layer_keypad {
             bindings = <
  &kp EQUAL     &kp N1    &kp N2  &kp N3     &kp N4  &kp N5              &trans                                                                 &mo 3     &kp N6            &kp KP_NUM           &kp KP_EQUAL   &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB     &kp N0    &kp N1  &kp N2     &kp N3  &kp N4               &none                                                                 &none      &kp Y             &kp KP_N7              &kp KP_N8       &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &kp TAB     &kp N0    &kp N1  &kp N2     &kp N3  &kp N4               &none                                                                 &none      &kp Y              &kp PLUS              &kp MINUS       &kp KP_N9     &kp KP_MINUS   &kp BSLH
    &kp ESC     &kp N5    &kp N6  &kp N7     &kp N8  &kp N9               &none  &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL      &none  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE        &kp MINUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X   &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp AMPERSAND     &kp ASTERISK  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS   &kp C  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                         &kp PIPE              &kp CARET      &kp KP_DOT         &kp RBKT      &mo 2
+ &kp LSHFT      &kp Z     &kp X   &kp C      &kp V   &kp B                                 &kp HOME                  &kp PG_UP                         &kp PIPE      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp AMPERSAND     &kp ASTERISK  &kp RSHFT
+     &mo 2  &kp GRAVE  &kp CAPS   &kp C  &kp RIGHT                    &kp BSPC    &kp DEL   &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE                            &none                  &none           &none            &none      &mo 2
             >;
         };
 
