@@ -41,7 +41,7 @@
         default_layer {
             bindings = <
    &kp ESC     &kp N1          &kp N2  &kp N3  &kp N4  &kp N5                     &tog 1                                                                                           &mo 3  &kp N6  &kp HOME    &kp END        &kp MINUS   &kp UNDERSCORE      &kp BACKSLASH
-   &kp DEL      &kp Q           &kp W   &kp E   &kp R   &kp T              &macro_parens                                                                           &macro_left_workspace   &kp Y     &kp U      &kp I            &kp O            &kp P           &kp CAPS
+ &kp TILDE      &kp Q           &kp W   &kp E   &kp R   &kp T              &macro_parens                                                                           &macro_left_workspace   &kp Y     &kp U      &kp I            &kp O            &kp P           &kp CAPS
  &kp LCTRL      &kp A           &kp S   &kp D   &kp F   &kp G            &macro_brackets    &mo 1  &kp LALT                  &macro_next_app  &macro_next_window  &macro_right_workspace   &kp H     &kp J      &kp K            &kp L    &kp SEMICOLON  &kp RIGHT_CONTROL
  &kp LSHFT      &kp Z           &kp X   &kp C   &kp V   &kp B                                      &kp HOME                        &kp PG_UP                                               &kp N     &kp M  &kp COMMA          &kp DOT         &kp FSLH  &kp RIGHT_COMMAND
      &mo 2  &kp TILDE  &kp LEFT_SHIFT   &mo 2   &mo 1                      &kp BACKSPACE  &kp TAB   &kp END                         &kp CAPS           &kp ENTER               &kp SPACE             &mo 1      &mo 4  &kp RIGHT_SHIFT  &kp RIGHT_BRACE              &mo 2
