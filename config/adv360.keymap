@@ -24,10 +24,19 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <100>;
             quick_tap_ms = <175>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+        };
+
+        hl: hl {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HL";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <100>;
         };
     };
 
@@ -36,11 +45,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2              &kp N3              &kp N4            &kp N5  &tog 1                                                                       &mo 3                   &kp N6  &kp N7            &kp UNDER           &kp MINUS            &kp MINUS          &kp GRAVE
-&kp TILDE  &kp Q      &kp W               &kp E               &kp R             &kp T   &macro_parens                                                                &macro_left_workspace   &kp Y   &kp U             &kp I               &kp O                &kp P              &kp RIGHT_COMMAND
-&kp LCTRL  &kp A      &hm LEFT_COMMAND S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &kp G   &macro_brackets  &mo 1    &kp LALT      &macro_next_app  &macro_next_window  &macro_right_workspace  &kp H   &hm LEFT_SHIFT J  &hm LEFT_CONTROL K  &hm RIGHT_COMMAND L  &hm CAPSLOCK SEMI  &kp APOS
-&kp LSHFT  &kp Z      &kp X               &kp C               &kp V             &kp B                             &none         &kp PG_UP                                                    &kp N   &kp M             &kp COMMA           &kp DOT              &kp FSLH           &kp RIGHT_SHIFT
-&mo 2      &kp TILDE  &kp LEFT_SHIFT      &mo 1               &mo 2                     &kp BACKSPACE    &kp TAB  &none         &kp CAPS         &kp ENTER           &kp SPACE                       &mo 1             &mo 4               &kp COLON            &kp BACKSLASH      &mo 2
+&kp ESC    &kp N1              &kp N2            &kp N3   &kp N4   &kp N5              &tog 1                                                                       &mo 3                   &kp N6               &kp N7   &kp UNDER  &kp MINUS          &kp MINUS               &kp GRAVE
+&kp TILDE  &kp Q               &kp W             &kp E    &kp R    &kp T               &macro_parens                                                                &macro_left_workspace   &kp Y                &kp U    &kp I      &kp O              &kp P                   &kp CAPSLOCK
+&kp LCTRL  &hm LEFT_CONTROL A  &hm LEFT_SHIFT S  &hl 1 D  &hl 2 F  &hm G LEFT_COMMAND  &macro_brackets  &mo 1    &kp LALT      &macro_next_app  &macro_next_window  &macro_right_workspace  &hm H RIGHT_COMMAND  &hl 1 J  &hl 4 K    &hm RIGHT_SHIFT L  &hm RIGHT_CONTROL SEMI  &kp APOS
+&kp LSHFT  &kp Z               &kp X             &kp C    &kp V    &kp B                                         &none         &kp PG_UP                                                    &kp N                &kp M    &kp COMMA  &kp DOT            &kp FSLH                &kp RIGHT_SHIFT
+&mo 2      &kp TILDE           &kp LEFT_SHIFT    &mo 1    &mo 2                        &kp BACKSPACE    &kp TAB  &none         &kp CAPS         &kp ENTER           &kp SPACE                                    &mo 1    &mo 4      &kp COLON          &kp BACKSLASH           &mo 2
             >;
         };
 
@@ -48,7 +57,7 @@
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3  &kp N4     &kp N5  &trans                                                 &mo 3      &kp N6            &kp KP_NUM            &kp KP_EQUAL           &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
 &kp TAB    &kp N0     &kp N1    &kp N2  &kp N3     &kp N4  &none                                                  &none      &kp PIPE          &kp PLUS              &kp AMPS               &kp STAR       &none             &kp BSLH
-&kp CAPS   &kp N1     &kp N2    &kp N3  &kp N4     &kp N5  &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES
+&kp CAPS   &kp N1     &kp N2    &kp N3  &kp N4     &kp N5  &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES
 &kp LSHFT  &kp N6     &kp N7    &kp N8  &kp N9     &kp N0                     &kp HOME      &kp PG_UP                        &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LT         &kp GT            &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS  &kp C   &kp RIGHT          &kp N0  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                    &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &none             &mo 2
             >;
@@ -56,11 +65,11 @@
 
         layer_fn {
             bindings = <
-&kp F1  &kp F2        &kp F3        &kp F4      &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7     &kp F8         &kp UP_ARROW      &kp F10          &kp F11          &kp F12
-&trans  &trans        &trans        &trans      &trans  &trans  &none                                       &none   &trans     &kp LEFT       &kp DOWN          &kp RIGHT        &trans           &trans
-&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp CARET  &kp LESS_THAN  &kp GREATER_THAN  &kp KP_ASTERISK  &kp AMPS         &trans
-&trans  &trans        &trans        &trans      &trans  &trans                  &trans      &trans                  &trans     &trans         &trans            &kp UP_ARROW     &kp RIGHT_ARROW  &trans
-&trans  &trans        &trans        &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans             &trans         &kp LEFT_ARROW    &kp DOWN_ARROW   &trans           &trans
+&kp F1  &kp F2        &kp F3        &kp F4      &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7     &kp F8          &kp UP_ARROW    &kp F10           &kp F11          &kp F12
+&trans  &trans        &trans        &trans      &trans  &trans  &none                                       &none   &trans     &kp LESS_THAN   &kp UP_ARROW    &kp GREATER_THAN  &trans           &trans
+&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &kp CARET  &kp LEFT_ARROW  &kp DOWN        &kp RIGHT         &kp AMPS         &trans
+&trans  &trans        &trans        &trans      &trans  &trans                  &trans      &trans                  &trans     &trans          &trans          &kp UP_ARROW      &kp RIGHT_ARROW  &trans
+&trans  &trans        &trans        &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans             &trans          &kp LEFT_ARROW  &kp DOWN_ARROW    &trans           &trans
             >;
         };
 
