@@ -45,11 +45,11 @@
 
         default_layer {
             bindings = <
-&kp ESC       &kp N1     &kp N2          &kp N3              &kp N4            &kp N5              &tog 1                                                                       &mo 3                   &kp N6                   &kp N7             &hm MINUS UNDER          &kp MINUS  &kp MINUS      &kp GRAVE
-&kp TILDE     &kp Q      &kp W           &kp E               &kp R             &kp T               &macro_parens                                                                &macro_left_workspace   &kp Y                    &kp U              &kp I                    &kp O      &kp P          &kp CAPSLOCK
-&kp CAPSLOCK  &kp A      &kp S           &kp D               &kp F             &hm LEFT_COMMAND G  &macro_brackets  &mo 1    &kp LALT      &macro_next_app  &macro_next_window  &macro_right_workspace  &hm LG(RIGHT_COMMAND) H  &kp J              &kp K                    &kp L      &kp SEMI       &kp APOS
-&kp LSHFT     &kp Z      &kp X           &hm LEFT_CONTROL C  &hm LEFT_SHIFT V  &kp B                                         &none         &kp PG_UP                                                    &kp N                    &hm RIGHT_SHIFT M  &hm RIGHT_CONTROL COMMA  &kp DOT    &kp FSLH       &kp RIGHT_SHIFT
-&mo 2         &kp TILDE  &kp LEFT_SHIFT  &mo 1               &mo 2                                 &kp BACKSPACE    &kp TAB  &none         &kp CAPS         &kp ENTER           &kp SPACE                                        &mo 1              &mo 4                    &kp COLON  &kp BACKSLASH  &mo 2
+&kp ESC       &kp N1     &kp N2          &kp N3            &kp N4            &kp N5              &tog 1                                                                       &mo 3                   &kp N6                   &kp N7             &hm MINUS UNDER          &kp MINUS  &kp MINUS      &kp GRAVE
+&kp TILDE     &kp Q      &kp W           &kp E             &kp R             &kp T               &macro_parens                                                                &macro_left_workspace   &kp Y                    &kp U              &kp I                    &kp O      &kp P          &kp CAPSLOCK
+&kp CAPSLOCK  &kp A      &kp S           &kp D             &kp F             &hm LEFT_COMMAND G  &macro_brackets  &mo 1    &kp LALT      &macro_next_app  &macro_next_window  &macro_right_workspace  &hm LG(RIGHT_COMMAND) H  &kp J              &kp K                    &kp L      &kp SEMI       &kp APOS
+&kp LSHFT     &kp Z      &kp X           &hl 1 C           &hm LEFT_SHIFT V  &kp B                                         &none         &kp PG_UP                                                    &kp N                    &hm RIGHT_SHIFT M  &hm RIGHT_CONTROL COMMA  &kp DOT    &kp FSLH       &kp RIGHT_SHIFT
+&mo 2         &kp TILDE  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mo 2                                 &kp BACKSPACE    &kp TAB  &none         &kp CAPS         &kp ENTER           &kp SPACE                                        &mo 1              &mo 4                    &kp COLON  &kp BACKSLASH  &mo 2
             >;
         };
 
