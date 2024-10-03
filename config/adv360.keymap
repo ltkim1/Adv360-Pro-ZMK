@@ -46,11 +46,11 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3  &kp N4     &kp N5            &trans                                                 &mo 3      &kp N6            &kp KP_NUM            &kp KP_EQUAL           &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp N0     &kp N1    &kp N2  &kp N3     &kp N4            &none                                                  &none      &kp PIPE          &kp PLUS              &kp AMPS               &kp STAR       &none            &kp BSLH
-&kp CAPS   &kp N1     &kp N2    &kp N3  &kp N4     &kp N5            &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &kp UNDERSCORE   &kp DOUBLE_QUOTES
-&kp LSHFT  &kp N6     &kp N7    &kp N8  &kp N9     &kp SINGLE_QUOTE                     &kp HOME      &kp PG_UP                        &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LT         &kp GT           &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp C   &kp RIGHT                    &kp N0  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                    &kp LEFT_BRACE        &kp RIGHT_BRACE        &none          &none            &mo 2
+&kp EQUAL  &kp N1     &kp N2    &kp N3  &kp N4     &kp N5            &trans                                                 &mo 3      &kp N6         &kp KP_NUM            &kp KP_EQUAL           &kp KP_DIVIDE     &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp N0     &kp N1    &kp N2  &kp N3     &kp N4            &none                                                  &none      &kp PIPE       &kp PLUS              &kp AMPS               &kp STAR          &kp CARET        &kp BSLH
+&kp CAPS   &kp N1     &kp N2    &kp N3  &kp N4     &kp N5            &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp EQUAL      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS         &kp UNDERSCORE   &kp DOUBLE_QUOTES
+&kp LSHFT  &kp N6     &kp N7    &kp N8  &kp N9     &kp SINGLE_QUOTE                     &kp HOME      &kp PG_UP                        &kp LESS_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp GT           &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp C   &kp RIGHT                    &kp N0  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                 &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none            &mo 2
             >;
         };
 
@@ -58,7 +58,7 @@
             bindings = <
 &kp F1  &kp F2        &kp F3        &kp F4      &kp F5  &kp F6  &tog 1                                      &mo 3   &kp F7  &kp F8          &kp F9          &kp F10          &kp F11           &kp F12
 &trans  &trans        &trans        &trans      &trans  &trans  &none                                       &none   &trans  &trans          &kp UP_ARROW    &trans           &trans            &trans
-&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE  &trans
+&trans  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SINGLE_QUOTE  &kp SINGLE_QUOTE
 &trans  &trans        &trans        &trans      &trans  &trans                  &trans      &trans                  &trans  &trans          &trans          &kp UP_ARROW     &kp RIGHT_ARROW   &trans
 &trans  &trans        &trans        &trans      &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans          &kp LEFT_ARROW  &kp DOWN_ARROW   &trans            &trans
             >;
