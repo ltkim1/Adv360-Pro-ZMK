@@ -35,7 +35,7 @@
         code: code {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(LG(C))>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_GUI &kp C>;
             label = "CODE";
         };
     };
