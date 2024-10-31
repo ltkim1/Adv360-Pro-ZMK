@@ -31,6 +31,15 @@
         };
     };
 
+    macros {
+        code: code {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp C>;
+            label = "CODE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
