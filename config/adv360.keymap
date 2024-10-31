@@ -56,7 +56,7 @@
 &kp TILDE  &kp Q         &kp W   &kp E   &kp R   &kp T   &kp LS(LG(C))                                                     &macro_left_workspace   &kp Y   &kp U   &kp I         &kp O      &kp P            &kp RIGHT_COMMAND
 &kp LCTRL  &kp A         &kp S   &kp D   &kp F   &kp G   &code          &mo 1    &kp LALT      &kp RIGHT      &kp LG(TAB)  &macro_right_workspace  &kp H   &kp J   &kp K         &kp L      &kp SEMICOLON    &kp LEFT_CONTROL
 &kp LSHFT  &kp Z         &kp X   &kp C   &kp V   &kp B                           &kp B         &kp LEFT                                            &kp N   &kp M   &kp COMMA     &kp DOT    &kp FSLH         &kp RIGHT_SHIFT
-&mo 2      &kp GRAVE     &code   &mo 1   &mo 2           &kp BACKSPACE  &kp TAB  &none         &kp LS(LG(C))  &kp ENTER    &kp SPACE                       &mo 4   &mo 1         &kp COLON  &kp RIGHT_BRACE  &mo 2
+&mo 2      &kp GRAVE     &code   &mo 1   &mo 2           &kp BACKSPACE  &kp TAB  &none         &kp LS(LG(C))  &kp ENTER    &kp SPACE                       &mo 1   &mo 4         &kp COLON  &kp RIGHT_BRACE  &mo 2
             >;
         };
 
