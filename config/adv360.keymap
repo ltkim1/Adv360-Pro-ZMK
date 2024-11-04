@@ -52,11 +52,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &tog 1                                                            &mo 3                   &kp N6  &kp N7  &kp CAPSLOCK  &kp N9     &kp UNDERSCORE   &kp BACKSLASH
+&kp ESC    &kp NUMBER_1  &kp N2  &kp N3  &kp N4  &kp N5  &tog 1                                                            &mo 3                   &kp N6  &kp N7  &kp CAPSLOCK  &kp N9     &kp UNDERSCORE   &tog 1
 &kp TILDE  &kp Q         &kp W   &kp E   &kp R   &kp T   &kp LS(LG(C))                                                     &macro_left_workspace   &kp Y   &kp U   &kp I         &kp O      &kp P            &kp RIGHT_COMMAND
 &kp LCTRL  &kp A         &kp S   &kp D   &kp F   &kp G   &code          &mo 1    &kp LALT      &kp RIGHT      &kp LG(TAB)  &macro_right_workspace  &kp H   &kp J   &kp K         &kp L      &kp SEMICOLON    &kp LEFT_CONTROL
 &kp LSHFT  &kp Z         &kp X   &kp C   &kp V   &kp B                           &kp B         &kp LEFT                                            &kp N   &kp M   &kp COMMA     &kp DOT    &kp FSLH         &kp RIGHT_SHIFT
-&mo 2      &kp GRAVE     &code   &mo 1   &mo 2           &kp BACKSPACE  &kp TAB  &none         &kp LS(LG(C))  &kp ENTER    &kp SPACE                       &mo 4   &mo 1         &kp COLON  &kp RIGHT_BRACE  &mo 2
+&mo 2      &kp GRAVE     &code   &mo 1   &mo 2           &kp BACKSPACE  &kp TAB  &none         &kp LS(LG(C))  &kp ENTER    &kp SPACE                       &mo 1   &mo 4         &kp COLON  &kp RIGHT_BRACE  &mo 2
             >;
         };
 
@@ -66,7 +66,7 @@
 &kp TAB    &kp N0     &kp N1    &kp N2  &kp N3     &kp N4            &none                                                         &none          &kp PIPE          &kp PLUS              &kp AMPS               &kp STAR          &kp CARET        &kp BSLH
 &kp CAPS   &kp N1     &kp N2    &kp N3  &kp N4     &kp N5            &none   &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL         &none          &kp EQUAL         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS         &kp LESS_THAN    &kp DOUBLE_QUOTES
 &kp LSHFT  &kp N6     &kp N7    &kp N8  &kp N9     &kp SINGLE_QUOTE                     &kp HOME      &kp PG_UP                                   &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GREATER_THAN  &kp GT           &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp C   &kp RIGHT                    &kp N0  &kp DEL    &kp END       &kp PG_DN  &kp GREATER_THAN  &kp LESS_THAN                    &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none            &mo 2
+&mo 2      &kp GRAVE  &kp CAPS  &kp C   &kp RIGHT                    &kp N0  &trans     &kp END       &kp PG_DN  &kp GREATER_THAN  &kp LESS_THAN                    &kp LEFT_BRACE        &kp RIGHT_BRACE        &none             &none            &mo 2
             >;
         };
 
